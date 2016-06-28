@@ -1,0 +1,18 @@
+{
+  "name": "miniport",
+  "version": "1.0.0",
+  "description": "***https://html5up.net/miniport***",
+  "dependencies": {},
+  "devDependencies": {
+    "jade": "^1.11.0",
+    "stylus": "^0.54.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/students-org/miniport-alex.git"
+  },
+  "bugs": {
+    "url": "https://github.com/students-org/miniport-alex/issues"
+  },
+  "homepage": "https://github.com/students-org/miniport-alex#readme"
+}
