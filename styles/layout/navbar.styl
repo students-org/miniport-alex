@@ -1,0 +1,27 @@
+.navbar
+  height 3rem
+  background #282828
+  position fixed
+  display block
+  left 0
+  right 0
+  // margin-top -@height
+  transition .5s
+  z-index 1000
+  &List
+    text-align center
+    &__item
+      display inline-block
+      padding 0 1.5rem
+      & a
+        text-decoration none
+        color #fff
+  &__switcher
+    opacity 1
+    display inline-block
+    position fixed
+    right 2rem
+    top .5rem
+
+input.navbar__switcher
+  display none
