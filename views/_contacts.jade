@@ -1,0 +1,15 @@
+footer.container-fluid
+  .container.contact
+    h2.caption.contact__caption Have me make stuff for you.
+    p.contact__info Ornare nulla proin odio consequat sapien vestibulum ipsum sed lorem.
+    form.contactData
+      .row
+        .col-md-6
+          input.contactData__name.form-style(type="text" name="name" placeholder="Name")
+        .col-md-6
+          input.contactData__email.form-style(type="email" name="email" placeholder="Email")
+      input.contactData__subject.form-style(type="text" name="subject" placeholder="Subject")
+      textarea.contactData__message.form-style(name="message" placeholder="Message")
+      input.button.contactData__btn(type="submit" name="submit" value="Send Message")
+      input.button.contactData__btn.contactData__btn_clear(type="reset" name="clear" value="Clear Form")
+
