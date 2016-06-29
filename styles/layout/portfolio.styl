@@ -1,19 +1,18 @@
 .portfolio
   @extend $indents
-  background url("./images/overlay .png") center, #f4f4f4
-  text-align center
-  padding-bottom 7remx
+  background url("./images/overlay .png") center, #f4f4f4  
+  padding-bottom 7rem
   &__header
     color #3E3E3E
     font-size 1.5rem
     font-weight 200
     padding-bottom 1.5rem
-  &__info
-    font-size 1.3rem
-    font
   &Item
     background #fff
     margin-bottom 30px
+    text-align center
+    &__image
+      width 100%
     &__caption
       font-weight 600
       font-size 1.6rem
@@ -21,10 +20,9 @@
       margin-bottom .5rem
       a
         text-decoration none
-        color #3E3E3E
+        transition .5s
         &:hover
-          text-decoration none
-          color #3E3E3E
+          color #43B3E0
     &__info
       margin 0
       padding-bottom 2rem

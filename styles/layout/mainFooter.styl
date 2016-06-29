@@ -2,6 +2,8 @@
   margin 0 auto
   width 50%
   text-align center
+  @media screen and (max-width 768px)
+    width 100%
   &__caption
     font-size 2rem
     color #fff
@@ -19,6 +21,9 @@
       border-right 1px solid rgba(#000, 0.5)
       line-height 16px
       padding 0 20px
+    @media screen and (max-width 1400px)
+      &__item
+        border none
       &:last-child 
         border-right none
 .socialLinks
@@ -59,3 +64,7 @@
 
 .link_grey
   color grey
+
+// @media screen and (max-width 1000px)
+//   .mainFooter
+//     width 100%
