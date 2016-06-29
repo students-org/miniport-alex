@@ -10,9 +10,13 @@
   z-index 1000
   &List
     text-align center
+      @media (max-width 768px)
+        text-align left
     &__item
       display inline-block
       padding 0 1.5rem
+      @media (max-width 768px)
+        padding 0 .5rem
       & a
         text-decoration none
         color #fff
