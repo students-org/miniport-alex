@@ -5,8 +5,8 @@
   display block
   left 0
   right 0
-  // margin-top -@height
-  transition .5s
+  top -@height
+  transition .5s ease-in-out
   z-index 1000
   &List
     text-align center
@@ -17,11 +17,20 @@
         text-decoration none
         color #fff
   &__switcher
-    opacity 1
     display inline-block
     position fixed
     right 2rem
     top .5rem
+    & i
+      padding-left 1rem
+  & .navbar__switcher
+    opacity 0
 
 input.navbar__switcher
   display none
+  &:checked
+    ~ .navbar
+      top 0
+      & .navbar__switcher
+        opacity 1
+        transition 1.5s ease-in-out
